@@ -1,0 +1,276 @@
+body {
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: normal;
+   margin: 0px auto;
+
+}
+ .box {
+   display: flex;
+   margin: 0 auto;
+   background-color:white;
+   gap: 10px;
+   margin: 0px auto;
+   margin-bottom: 10px;
+   
+   } 
+   
+   
+
+#Bank_login {
+   padding: 10px;
+   width: 100%;
+   
+}
+
+#container-wrap {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   width: 55%;
+   
+ 
+  border: 1px solid;
+  margin: 0px auto; 
+  background-color: white;
+   padding: 10px;
+}
+
+ /* LOGING IN BY BRANCH  */
+
+  /* #Login-branch {
+   display: flex;
+   margin-top: 1.3rem;
+   color: rgb(255, 0, 0);
+   
+} */ 
+ul{
+   display: flex;
+   font-size: 10px;
+   font-weight: bold;
+   color: red;
+}
+header {
+   margin-top: 1.5rem;
+}
+
+
+li {
+   list-style: none;
+}
+
+li a {
+   color: rgb(255, 0, 0);
+   font-weight: bold;
+   font-size: small;
+
+}
+#switch{
+   width: 12.2px;
+   height: 11.5px;
+}
+
+.branch_mg {
+   margin-left: 1.8em ;
+   /* color: rgb(255, 0, 0); */
+}
+
+.sup_admin {
+   margin-left: 10rem;
+   /* color: rgb(255, 0, 0); */
+}
+form {
+   margin: 3.6rem;
+   overflow: hidden;
+    
+}
+
+/* FORM 
+/* PremiumTrust
+   Bank */
+
+.brand_logo {
+   display: flex;
+   margin-bottom: 4rem;
+   margin-left: 100px;
+
+}
+.brand_logo > h1 {
+   font-size: 30px;
+   margin: 0px;
+}
+#color_red {
+   color: rgb(255, 0, 0);
+}
+
+.brand {
+   margin-top: 0em auto;
+   color: #555333;
+}
+
+.fill {
+color: #cfd9da;
+
+}
+
+/* #input_class {
+   width: 29.5rem;
+   height: fit-content;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border-color: grey;  
+   margin: 24px 0px 0px ;
+   padding: 0.4em
+  
+} */
+input[type= email], [type= password]{
+   border: none;
+   border-bottom: 1px solid;
+   width: 29.5rem;
+   outline: none;
+   border-color: grey;
+   margin: 24px 0px 0px ;
+   padding: 0.4em
+
+}
+/* #chek_remember {
+  
+} */
+.check {
+   display: flex;
+   margin-bottom: 2rem;
+   font-family: Arial, Helvetica, sans-serif;  
+}
+.click_here {
+   margin-left: 9rem;
+}
+
+/* a {
+   color: rgb(205, 6, 6) ;
+   text-decoration: none ;
+} */
+.click {
+   color: rgb(205, 6, 6) ;
+   text-decoration: none ;
+   padding: 0 auto;
+}
+
+.btn{
+   border-width: 40px;
+   color: rgb(255, 0, 0)
+   
+}
+button {
+   background-color: rgb(205, 6, 6);
+   border:none;
+   
+}
+
+
+/* input[type=button]:hover{
+   background-color: rgb(255, 0, 0);
+   color: white;
+   
+} */
+.btn1 {
+   padding: 13px 5em;
+   border-radius: 19px;
+   background-color: rgb(255, 0, 0);
+   color: white;
+   font-weight: bold;
+   border: 1.5px solid rgb(255, 0, 0)
+}
+
+
+.btn2 {
+   margin: 1.1%;
+   padding: 13px 1.8em;
+   border-radius: 19px;
+   background-color: white;
+   color: red;
+   font-weight: bold;
+   border: 1.95px solid rgb(255, 0, 0)
+}
+
+ aside {
+   background-image: url('./office_table.jpg');
+   height: 100vh;
+   width: 100%;
+   background-size: cover;
+   margin-top: 10px;
+}
+
+
+
+
+.aside-text, a {
+   color: white;
+   text-decoration: none;
+
+   
+}
+.wrap-content {
+   background-color: rgba(250, 0, 0, 0.755);
+   height: 100vh;
+   color: white;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+   /* width: 29.8rem; */
+   /* margin-right: 29rem; */
+   /* margin-bottom: 15px; */
+   
+}
+
+hr {
+   width: 74px;
+   margin: 1.8px;
+   color: white;
+   border: 0.2px solid white;
+  
+}
+
+footer {
+ text-decoration: underline;
+ text-align: center;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: 100;
+}
+/* #background_color a {
+   color: white;
+   text-decoration: none;
+} */
+@media only screen and (max-width:720px) {
+   body {
+      margin: 0;
+      padding: 0;
+   }
+   .box {
+      display: flex;
+      flex-direction: column-reverse;
+      width: fit-content;
+      margin: 0px;
+      padding: 0px;
+   }
+   aside {
+      width: 100%;  
+      padding: 0px;
+      margin: 0px;
+         
+   }
+   form {
+      padding: 0px;
+      
+   }
+      
+   #Bank_login {
+      width: fit-content;
+   }
+   .click {
+      padding: 0 auto;
+      margin: 0;
+   }
+}
+
